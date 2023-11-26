@@ -3,14 +3,14 @@ El proyecto es un API para facilitar el pago de cervezas.
 
 ## Correr el proyecto
 Clonar el repositorio.
-Para correr el frontend:
-- Ir a frontend
+Para correr el proyecto frontend:
+- Ir a carpeta frontend
 - npm install
 - npm start
 
 Para correr el api:
 - Usar el puerto 8000
-- Ir a backend
+- Ir a carpeta backend
 - Instalar los requerimientos de requirements.txt
 - python manage.py makemigrations
 - python manage.py migrate
