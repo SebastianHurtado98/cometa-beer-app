@@ -31,9 +31,6 @@ Las nuevas órdenes se agregarán a la cuenta grupal si generas el bill:
 - POST http://127.0.0.1:8000/api/bills/generate/
 - Body: {"customer_ids": [1, 2, 3], "group": "GRP"}
 
-El frontend mostrará el total a pagar pendiente por cada usuario. 
-- Usar botón Pay en el frontend.
-
 Correr tests en el backend:
 - python manage.py test
 
