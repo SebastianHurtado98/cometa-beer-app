@@ -3,6 +3,10 @@ El proyecto es un API para facilitar el pago de cervezas.
 
 ## Correr el proyecto
 Clonar el repositorio.
+Para correr el frontend:
+- Ir a frontend
+- npm install
+- npm start
 
 Para correr el api:
 - Usar el puerto 8000
@@ -26,6 +30,9 @@ O crear nuevas órdenes:
 Las nuevas órdenes se agregarán a la cuenta grupal si generas el bill:
 - POST http://127.0.0.1:8000/api/bills/generate/
 - Body: {"customer_ids": [1, 2, 3], "group": "GRP"}
+
+El frontend mostrará el total a pagar pendiente por cada usuario. 
+- Usar botón Pay en el frontend.
 
 Correr tests en el backend:
 - python manage.py test
